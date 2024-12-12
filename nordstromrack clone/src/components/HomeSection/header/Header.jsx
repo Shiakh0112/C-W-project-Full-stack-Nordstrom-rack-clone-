@@ -69,7 +69,7 @@ function Header() {
           />
         </div>
       </div>
-      <div className="random-product">
+      <div className="random-product ">
         {" "}
         <RandomProduct />{" "}
       </div>
