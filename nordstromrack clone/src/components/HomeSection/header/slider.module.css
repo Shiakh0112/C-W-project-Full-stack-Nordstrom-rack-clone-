@@ -1,0 +1,18 @@
+/* slider.module.css */
+.sliderContainer {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slickSlider .slickSlide {
+  display: flex !important; /* Ensures horizontal alignment */
+  justify-content: center;
+  align-items: center;
+}
+
+.slickSlide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
